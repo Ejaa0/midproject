@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <form >
+        <!--input type text-->
+        <label for="fullname">Full Name:</label><br>
+        <input type="text" name="fullname"><br>
+
+        <!--Input type email-->
+        <label for="email">Email :</label><br>
+        <input type="email" id="email" name="email"><br>
+        
+        <!--input type text-->
+        <label for="username">Username:</label><br>
+        <input type="text" name="username"><br>
+
+        <!--Input type password-->
+        <label for="password">Password :</label><br>
+        <input type="password" id="password" name="password"><br><br>
+
+        <!--Input type radio-->
+        <p>choose your gender:</p>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label> 
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <!--Select Element-->
+        <label for="religion">Religion</label><br>
+        <select id="religion" name="religion">
+        <option value="Christian">Christian</option>
+        <option value="Moslem">Moslem</option>
+        <option value="Buddhist">Buddhist</option>
+        <option value="Hindu">Hindu</option>
+        </select><br>
+
+        <!--Text Area Element-->
+        <p>Write your addres:</p>
+        <textarea name="comment" rows="10" cols="30"></textarea>
+
+        <!--input type checkbox-->
+        <p>Choose your hobbies:</p>
+        <input type="checkbox" id="violin" name="hobby1" value="violin">
+        <label for="violin">Playing Violin</label><br>
+        <input type="checkbox" id="swimming" name="hobby2" value="swimming">
+        <label for="swimming">Swimming</label><br>
+        <input type="checkbox" id="cooking" name="hobby3" value="cooking">
+        <label for="cooking">Cooking</label><br>
+        <input type="checkbox" id="badminton" name="hobby4" value="badminton">
+        <label for="badminton">Badminton</label><br><br>
+
+        <!--Input type submit-->
+        <input type="submit"value="Save">
+        <!--Input type reset-->
+        <input type="reset">
+    </form>
+</body>
+</html>

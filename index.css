@@ -1,188 +1,12 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    list-style-type:none ;
-}
-
-
-.kolom-navigasi {
-    display: flex;
-    justify-content: space-around;
-    background-color: whitesmoke;
-}
-
-#logo-bni {
-    display: flex;
-    justify-content: space-around;
-    margin-right: 1155px;
-    
-}
-.beranda {
-    background-color: orangered; 
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-.individu {
-    background-color: orangered; 
-    border: none;
-    color: white;
-    padding: 15px 32px;
+.icon-container {
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 20px 10px;
+    }
+
+    .icon {
+    font-size: 2rem;
+    margin: 10px;
     cursor: pointer;
-}
-
-.umkm {
-    background-color: orangered; 
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 20px 10px;
-    cursor: pointer;
-}
-
-.korporasi {
-    background-color: orangered; 
-    border: none;
-    color: white;
-    padding: 15px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 20px 10px;
-    cursor: pointer;
-}
-
-.wealth {
-    background-color: orangered; 
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 20px 10px;
-    cursor: pointer;
-}
-
-.e-banking {
-    background-color: orangered; 
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 20px 10px;
-    cursor: pointer;
-}
-.contact {
-    background-color: orangered; 
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 20px 10px;
-    cursor: pointer;
-}
-
-.fti {
-    background-color: orangered; 
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 20px 10px;
-    cursor: pointer;
-}
-
-.unai {
-    background-color: orangered; 
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-
-.biodata {
-    background-color: orangered; 
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 20px 10px;
-    cursor: pointer;
-}
-
-.papan-iklan {
-    display: flex;
-    width: 100%;
-    
-}
-
-.papan-iklan img {
-    width:100% ;
-    animation: slide 20s infinite;
-}
-
-.wrapper {
-    width: 1350px;
-    margin: auto;
-    border-radius: 5px;
-    overflow: hidden;
-    position: relative;
-    
-}
-
-#slide-1:target ~ .papan-iklan {
-    margin-left: 0px;
-}
-
-#slide-2:target ~ .papan-iklan {
-    margin-left: -100%; 
-}
-
-#navigasi-iklan a{
-    display: inline-block;
-    height: 25px;
-    width: 25px;
-    background-color: rgba(231, 95, 36, 0.933);
-    font-size: 0px;
-    border-radius: 50%;
-    margin: 3px;
-    transition: 1s;
-}
-
+    }
 #navigasi-iklan a:hover {
     background-color:orangered;
 }
@@ -226,6 +50,23 @@
     margin-left: 20px;
     margin-right: 20px;
     font-size: medium;
+}
+
+.container-satu {
+    display: flex;      
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    }
+
+@media (max-width: 576px) {
+    .search-container {
+    flex-direction: column;
+    }
 }
 
 .container-satu {
@@ -307,171 +148,4 @@
     font-weight: 400;
     margin-right: 20px;
     font-size: 30px;
-}
-
-
-.container-video-satu {
-    width: 800px;
-    margin: 5px ;
-    background-color: #fff;
-    display: flex;  
-    gap: 10px; 
-    
-}
-
-.video1{
-    margin-right: 2px;
-    order: 1; 
-}
-
-.buka-tabungan {
-    margin:5px auto;
-    flex: 2;
-    order: 2;
-    color: orangered; 
-    font-size: 24px;
-    text-align: center;
-    margin-bottom: 100px;
-}
-
-.container-video-dua {
-    width: 1000px;
-    margin: 20px 685px ;
-    background-color: #fff;
-    display: flex;     
-}
-
-.video2 {
-    margin-left: -20px;
-    order: 1;
-}
-
-.digics {
-    color: orangered;
-    margin-left:-200px;
-    margin-bottom:500px;
-}
-
-.valuta {
-padding:20px 40px;
-text-align: center;
-}
-
-.special-rates {
-    padding: 20px 90px;
-}
-
-.konversi {
-    display: flex;
-    margin-right: 2200px;
-}
-
-
-.container-tabel {
-    box-sizing: border-box;
-    border-radius:20px;
-    border: 1px solid rgb(29, 154, 154);
-    border-top: 4px solid rgb(29, 154, 154)!important;    
-    width: 490px;
-    height:335px;
-}
-
-.bni-kurs-valas {
-    width: 1000px;
-    margin: 5px ;
-    background-color: #fff;;    
-}
-
-.tampilan-orang {
-    margin-left: 850px;
-    margin-top: -330px; 
-}
-
-.box-icon-bawah{
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.promo-bni{
-    text-align: center;
-    animation: 20s infinite;
-}
-
-.footer-luar{
-    background-color:rgb(33, 33, 33);
-    color: white;
-    display: flex;  
-    
-}
-
-.footer-luar-banget {
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding-top: 50px;
-    
-}
-
-.footer-satu {
-    flex: 2;
-    order: 1;    
-}
-
-.footer-dua{
-    flex: 6;
-    order: 2;
-}
-
-.footer-tiga{
-    flex: 2;
-    order: 3;
-}
-
-.footer-empat{
-    flex: 2;
-    order: 4;
-}
-
-.promo-bni {
-    width:-700px;
-    top: 50%;
-    left: 50%;
-    position: translate(50%, -50%);
-    overflow: hidden;
-    border-radius: 5px;
-    box-shadow: 10px 25px 30px rgba (0,0,0,0,5);
-}
-
-.bni-wrap {
-    display: flex;
-    animation: slide 20s infinite;
-}
-
-.wrap img {
-    width: 500%;
-}
-
-@keyframes slide {
-    0% {
-        transform: translateX(0);
-    }
-}
-
-@keyframes slide {
-    10% {
-        transform: translateX(0);
-    }
-    20% {
-        transform: translateX(0);
-    }
-    30% {
-        transform: translateX(-100%);
-    }
-    40% {
-        transform: translateX(-200);
-    }
-    50% {
-        transform: translateX(-300%);
-    }
-
 }
